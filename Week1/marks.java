@@ -28,5 +28,6 @@ class Example{
             result = 'F';
         }
         System.out.println("The result is: " + result);
+        scn.close();
     }
 }

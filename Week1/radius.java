@@ -8,5 +8,6 @@ class Template{
         r = scn.nextDouble();
         ar = pi * (r * r);
         System.out.println("The area is: " + ar);
+        scn.close();
     }
 }

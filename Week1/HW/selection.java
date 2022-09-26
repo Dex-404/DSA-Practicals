@@ -5,7 +5,6 @@ class Selection{
         Scanner scn = new Scanner(System.in);
         String gender;
         String color = "error";
-        boolean isBoy;
         int age;
         System.out.println("Are you a girl or a boy?");
         gender = scn.nextLine();
@@ -28,5 +27,6 @@ class Selection{
         }
 
         System.out.println("Your color is: " + color);
+        scn.close();
     }
 }
