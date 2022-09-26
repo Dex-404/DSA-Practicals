@@ -9,5 +9,6 @@ class Numbers{
         int n2 = scn.nextInt();
         int tot = n1+n2;
         System.out.println("The total is: " + tot);
+        scn.close();
     }
 }
