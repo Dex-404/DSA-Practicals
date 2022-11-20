@@ -13,6 +13,7 @@ class Selection{
         age = scn.nextInt();
 
         if((gender).equals("boy")){
+
             if(age>15){
                 color = "Blue";
             }else{
@@ -26,6 +27,7 @@ class Selection{
             }
         }
 
+//sc.charAt(0)
         System.out.println("Your color is: " + color);
         scn.close();
     }
