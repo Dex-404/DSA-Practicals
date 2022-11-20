@@ -1,7 +1,7 @@
 class selectionSort{
 
     public void Ssort(int A[]){
-        int minVal,minIndex,temp;
+        int minVal,minIndex;
         minVal = A[0];
         for(int x=0;x<A.length;x++){
             minVal = A[x];
