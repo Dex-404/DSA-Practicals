@@ -16,6 +16,7 @@ class stack{
     public int pop(int T[]){
         if(SP == -1){
             System.out.println("Stack is Empty");
+            return -1;
         }else{
             int item = T[SP];
             SP--;
@@ -31,7 +32,7 @@ class stack{
         System.out.println("\nStack Pointer : "+SP);
     }
 
-    public static void mani(String args[]){
+    public static void main(String args[]){
         int ST[] = new int[5];
 
         stack obj = new stack();
@@ -48,7 +49,7 @@ class stack{
 
         int x = obj.pop(ST);
 
-        System.out.println(x + "Item Popped");
+        System.out.println(x + " - Item Popped");
 
         obj.Display(ST);
 
