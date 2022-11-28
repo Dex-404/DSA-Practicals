@@ -2,7 +2,6 @@ public class queues {
     private int head;
     private int tail;
     private int count;
-    private int item;
 
     public void init(int T[]){
         head = 0;
